@@ -1,0 +1,179 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; /*=10px*/
+}
+
+// globals
+$primary: #e50914;
+$secondary: #303030;
+$third: #8d8e8e;
+$white: #ffffff;
+$black: #000000;
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: $white;
+  // color: $white;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 400;
+  transition: 0.3s ease;
+  color: $white;
+}
+
+button {
+  outline: none;
+  border: none;
+  font-size: 1.5rem;
+  font-weight: 400;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+  text-transform: capitalize;
+  transition: 0.3s ease;
+  display: flex;
+  align-items: center;
+}
+
+label {
+  transition: 0.3s ease;
+}
+
+button,
+h1,
+h2,
+h3,
+h4,
+a {
+  text-transform: capitalize;
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+h2 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+h3 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+h4 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+p,
+span {
+  font-size: 1.5rem;
+  font-weight: 400;
+  transition: 0.3s ease;
+}
+
+@media screen and (max-width: 1024px) {
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2.7rem;
+  }
+  h3 {
+    font-size: 2.2rem;
+  }
+  h4 {
+    font-size: 1.8rem;
+  }
+  p,
+  span {
+    font-size: 1.4rem;
+  }
+  a {
+    font-size: 1.5rem;
+  }
+  button {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 2.4rem;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+  h4 {
+    font-size: 1.6rem;
+  }
+  p,
+  span {
+    font-size: 1.4rem;
+  }
+  a {
+    font-size: 1.4rem;
+  }
+  button {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (max-width: 425px) {
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2.2rem;
+  }
+  h3 {
+    font-size: 1.8rem;
+  }
+  h4 {
+    font-size: 1.5rem;
+  }
+  p,
+  span {
+    font-size: 1.2rem;
+  }
+  a {
+    font-size: 1.2rem;
+  }
+  button {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.6rem;
+  }
+  h4 {
+    font-size: 1.5rem;
+  }
+  p,
+  span {
+    font-size: 1rem;
+  }
+  a {
+    font-size: 1rem;
+  }
+  button {
+    font-size: 1rem;
+  }
+}
